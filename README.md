@@ -30,7 +30,7 @@ Note that the program for now only encrypts a-z and 0-9 other symbols wont be en
 This software is and always will be free, but if you support the development, it will be largely appreciated:
 
 Ethererm Address : 0x448A558863DBA1e3392Cd0a80ea497c06821d2aA (I use MetaMask hence the repeted address)
- Binance Address : 0x448A558863DBA1e3392Cd0a80ea497c06821d2aA
- Polygon Address : 0x448A558863DBA1e3392Cd0a80ea497c06821d2aA
- Bitcoin Address : 177fzZh3t3cPccAeX4bTpVW5tAEkzZSB7V
-    Doge Address : DNTouZp7GsbqNbA7xjrqJwDvfD1Y9qHPDv
+Binance Address : 0x448A558863DBA1e3392Cd0a80ea497c06821d2aA
+Polygon Address : 0x448A558863DBA1e3392Cd0a80ea497c06821d2aA
+Bitcoin Address : 177fzZh3t3cPccAeX4bTpVW5tAEkzZSB7V
+Doge Address : DNTouZp7GsbqNbA7xjrqJwDvfD1Y9qHPDv
