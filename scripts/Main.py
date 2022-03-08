@@ -1,5 +1,6 @@
 #Encrypton
 
+
 def Encrypt(phrase):
 	encrypt = ""
 	for letter in phrase:
