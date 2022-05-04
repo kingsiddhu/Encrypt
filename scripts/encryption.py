@@ -1,9 +1,9 @@
-#Encrypton
+#Encrypton by siddharth
+##V1.3
 
 def Encrypt(phrase):
 	encrypt = ""
 	for en in phrase:
-		slash = ("\\")
 		if en in "a":
 			encrypt = encrypt + "`"
 		elif en in "b":
@@ -84,7 +84,7 @@ def Encrypt(phrase):
 			encrypt = encrypt + "p"
 		elif en in "]":
 			encrypt = encrypt + ";"
-		elif en in "\\":
+		elif en in "£":
 			encrypt = encrypt + "/"
 		elif en in ";":
 			encrypt = encrypt + "-"
@@ -97,7 +97,7 @@ def Encrypt(phrase):
 		elif en in "/":
 			encrypt = encrypt + "]"
 		elif en in "`":
-			encrypt = encrypt + slash
+			encrypt = encrypt + "£"
 		elif en in "~":
 			encrypt = encrypt + "|"
 		elif en in "!":
@@ -204,7 +204,6 @@ def Encrypt(phrase):
 
 
 def Decrypt(phrase):
-	slash = (r"\\")
 	encrypt = ""
 	for en in phrase:
 		if en in "`":
@@ -288,7 +287,7 @@ def Decrypt(phrase):
 		elif en in ";":
 			encrypt = encrypt + "]"
 		elif en in "/":
-			encrypt = encrypt + slash
+			encrypt = encrypt + "£"
 		elif en in "-":
 			encrypt = encrypt + ";"
 		elif en in "[":
@@ -299,7 +298,7 @@ def Decrypt(phrase):
 			encrypt = encrypt + "."
 		elif en in "]":
 			encrypt = encrypt + "/"
-		elif en in slash:
+		elif en in "£":
 			encrypt = encrypt + "`"
 		elif en in "|":
 			encrypt = encrypt + "~"
@@ -400,3 +399,5 @@ def Decrypt(phrase):
 		else:
 			encrypt = encrypt + en
 	return encrypt
+
+
